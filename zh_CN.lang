@@ -1,4 +1,4 @@
-# Master language file
+﻿# Master language file
 
 buildcraft.boardRobotClean=清除机器人
 buildcraft.boardRobotPicker=拾取机器人
@@ -727,6 +727,7 @@ buildcraft.item.nonclean.usage=Shift右击以清空
 buildcraft.guide.book.meta.name=BuildCraft配置指导手册
 buildcraft.guide_book.reloaded=指导手册重载
 buildcraft.guide.too_many_results=过多的结果将被显示: %s
+buildcraft.guide.chapter_list=Chapters
 buildcraft.guide.contents.loaded_modules=已加载模块:
 buildcraft.guide.contents.missing_modules=缺失模块:
 buildcraft.guide.order.type_subtype=按种类排序
@@ -746,50 +747,9 @@ buildcraft.guide.contents.triggers=触发
 buildcraft.guide.contents.actions=操作
 
 buildcraft.guide.chapter.type.unknown=未知种类!
-buildcraft.guide.chapter.type.block=方块
-buildcraft.guide.chapter.type.item=物品
-buildcraft.guide.chapter.type.pipe=管道
-buildcraft.guide.chapter.type.trigger=触发
-buildcraft.guide.chapter.type.action=操作
-buildcraft.guide.chapter.type.config=配置
-
-buildcraft.guide.chapter.subtype.unknown=未知子种类!
-buildcraft.guide.chapter.subtype.gear=齿轮
-buildcraft.guide.chapter.subtype.tool=工具
-buildcraft.guide.chapter.subtype.fluid=流体
-buildcraft.guide.chapter.subtype.mining=挖掘
-buildcraft.guide.chapter.subtype.engine=引擎
-buildcraft.guide.chapter.subtype.automation=自动化
-buildcraft.guide.chapter.subtype.pipe_item=物品运输
-buildcraft.guide.chapter.subtype.pipe_fluid=流体传输
-buildcraft.guide.chapter.subtype.pipe_plug=触发
-buildcraft.guide.chapter.subtype.refining=精炼
-buildcraft.guide.chapter.subtype.laser=激光能量
-buildcraft.guide.chapter.subtype.basic=基础
-buildcraft.guide.chapter.subtype.resourcepack=资源包
-
-buildcraft.guide.chapter.stage.unknown=未知时代!
-buildcraft.guide.chapter.stage.base=基础资源
-buildcraft.guide.chapter.stage.common=普通材料
-buildcraft.guide.chapter.stage.rare=稀有元素
-buildcraft.guide.chapter.stage.nether=下届
-buildcraft.guide.chapter.stage.end=末地
-
+buildcraft.guide.chapter.subtype.unknown=未知子类型!
 buildcraft.guide.chapter.mod.unknown=未知MOD!
-buildcraft.guide.chapter.mod.buildcraft=BuildCraft
-
 buildcraft.guide.chapter.submod.unknown=未知子MOD!
-buildcraft.guide.chapter.submod.lib=Lib
-buildcraft.guide.chapter.submod.core=Core
-buildcraft.guide.chapter.submod.factory=Factory
-buildcraft.guide.chapter.submod.energy=Energy
-buildcraft.guide.chapter.submod.transport=Transport
-
-buildcraft.guide.chapter.title.gate_base=门
-
-buildcraft.guide.page.guide_page_format=门页面文件表格
-buildcraft.guide.page.json_insn_format=JSON指令文件格式
-buildcraft.guide.page.registry_overview=JSON注册表概述
 
 buildcraft.guide.meta.group.linking_to=链接到
 buildcraft.guide.meta.group.linked_from=链接于
@@ -835,6 +795,7 @@ advancements.buildcraftcore.gears.description=每种齿轮得到一个
 
 advancements.buildcraftcore.wrenched.title=敲敲就好!
 advancements.buildcraftcore.wrenched.description=使用扳手
+
 advancements.buildcraftcore.freePowar.title=免费能量!
 advancements.buildcraftcore.freePowar.description=生产免费能量
 
@@ -926,7 +887,7 @@ advancements.buildcrafttransport.pipe_logic.title=是时候做点逻辑工作了
 advancements.buildcrafttransport.pipe_logic.description=在管道上放置门
 
 advancements.buildcrafttransport.all_plugged_up.title=全部堵塞
-advancements.buildcrafttransport.all_plugged_up.description=Attach one of each unique pluggable to a pipe
+advancements.buildcrafttransport.all_plugged_up.description=将每一种不同的管道插接物插入管道上
 
 advancements.buildcrafttransport.pipe_fanatic.title=管道全家桶（二）
 advancements.buildcrafttransport.pipe_fanatic.description=每种管道放置一个
@@ -957,4 +918,3 @@ advancements.buildcraftbuilders.building_for_the_future.description=在循环上
 
 advancements.buildcraftbuilders.destroying_the_world.title=毁天灭地
 advancements.buildcraftbuilders.destroying_the_world.description=两个或多个64 x 64大小的采石场同时全速运行
-
